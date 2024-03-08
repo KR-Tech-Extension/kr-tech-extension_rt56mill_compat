@@ -706,11 +706,11 @@ technologies = {
 
 			modifier = {
 				factor = 0.2
-				date < "1937.1.1"
+				date < 1937.1.1
 			}
 			modifier = {
 				factor = 0.4
-				date < "1938.1.1"
+				date < 1938.1.1
 			}
 		}
 	}
@@ -740,16 +740,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -775,6 +771,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -804,16 +805,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -831,6 +828,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -859,16 +861,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -878,6 +876,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -906,16 +909,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -925,6 +924,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -954,16 +958,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -973,6 +973,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 40
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -1009,10 +1014,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				is_major = yes
-				factor = 5
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -1023,6 +1024,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				is_major = yes
+				factor = 3
 			}
 		}
 
@@ -1058,16 +1064,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -1078,6 +1074,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -1114,16 +1121,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -1134,6 +1131,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -1170,16 +1178,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				rubber > 10
 			}
@@ -1190,6 +1188,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -1226,16 +1235,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -1246,6 +1245,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -1491,9 +1501,9 @@ technologies = {
 
 		ai_will_do = {
 			factor = 50
-
+			#KRTX AI weighting
 			modifier = {
-				factor = 5
+				factor = 2
 				date > 1937.1.1
 			}
 		}
@@ -1576,10 +1586,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 50
+			#KRTX AI weighting
 			modifier = {
-				factor = 10
-				date > 1937.1.1
+				factor = 2
+				date > 1938.1.1
 			}
 		}
 	}
@@ -1662,9 +1673,10 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 50
+			#KRTX AI weighting
 			modifier = {
-				factor = 3
+				factor = 2
 				date > 1940.1.1
 			}
 		}
@@ -1747,10 +1759,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 50
+			#KRTX AI weighting
 			modifier = {
-				factor = 10
-				date > 1941.1.1
+				factor = 2
+				date > 1942.1.1
 			}
 		}
 	}
@@ -1833,10 +1846,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 50
+			#KRTX AI weighting
 			modifier = {
-				factor = 10
-				date > 1943.1.1
+				factor = 2
+				date > 1944.1.1
 			}
 		}
 	}
@@ -1915,16 +1929,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -1934,6 +1944,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -1962,16 +1977,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -1981,6 +1992,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -2009,16 +2025,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -2028,6 +2040,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -2052,16 +2069,12 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				oil > 200
-				factor = 0.5
-			}
-			modifier = {
-				has_war = yes
 				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				is_major = no
 				factor = 0.25
+				is_major = no
 			}
 			modifier = {
 				factor = 1.5
@@ -2071,6 +2084,11 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				oil > 200
+				factor = 0.5
 			}
 		}
 	}
@@ -2101,16 +2119,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -2121,6 +2129,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -2157,16 +2176,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -2177,6 +2186,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -2213,16 +2233,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -2233,6 +2243,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -2265,16 +2286,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				OR = {
-					oil < 8
-					AND = {
-						has_war = yes
-						fuel_ratio < 1
-					}
-				}
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -2285,6 +2296,17 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
+			}
+			#KRTX AI weighting
+			modifier = {
+				factor = 10
+				OR = {
+					oil < 8
+					AND = {
+						has_war = yes
+						fuel_ratio < 1
+					}
+				}
 			}
 		}
 
@@ -2529,7 +2551,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 20
+			#KRTX AI weighting
+			modifier = {
+				factor = 2
+				date > 1946.1.1
+			}
 		}
 	}
 
@@ -2608,7 +2635,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 20
+			#KRTX AI weighting
+			modifier = {
+				factor = 2
+				date > 1949.1.1
+			}
 		}
 	}
 
@@ -2686,7 +2718,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 20
+			#KRTX AI weighting
+			modifier = {
+				factor = 2
+				date > 1952.1.1
+			}
 		}
 	}
 
@@ -2759,7 +2796,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 4
+			factor = 20
+			#KRTX AI weighting
+			modifier = {
+				factor = 2
+				date > 1955.1.1
+			}
 		}
 	}
 
