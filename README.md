@@ -12,4 +12,4 @@ This is the official compatibility patch for [KR Tech Extension](https://steamco
 4) Make a copy of the `descriptor.mod` file in the folder, rename it to `kr-tech-extension_rt56mill_compat.mod` and put it in `Hearts of Iron IV\mod`.
 
 ### Due to tech tree conflict, this patch doesn't work with the following compatch for KRTX:
-- [KR Tech Extension-Kaiserreich Naval Rework Compatibility Patch](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=3169405730)
+- [KR Tech Extension-Kaiserreich Naval Rework Compatibility Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3169405730)
