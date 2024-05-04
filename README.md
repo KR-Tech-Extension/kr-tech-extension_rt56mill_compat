@@ -1,6 +1,6 @@
 # KR Tech Extension-RT56 Steel Aluminium Standalone Compatibility Patch
 
-### Last Updated for Apr 6, 2024. (KR's 1.1 release)
+### Last Updated for May 5, 2024. (KR's 1.1.2 release)
 ### This compatibility patch will only be updated as needed, but will otherwise always work with the latest KR Tech Extension and RT56 Steel Aluminium Standalone mod release.
 
 This is the official compatibility patch for [KR Tech Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=3105210203) and [RT56 Steel Aluminium Standalone](https://steamcommunity.com/sharedfiles/filedetails/?id=2458187056) - only the most basic integration to get both working together, don't expect expanded tree for The Road to 56-style Steel/Aluminium Mills anytime soon.
